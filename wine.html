@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>厳選イタリアワイン & ペアリング | Trattoria SOLE（トラットリア ソーレ）</title>
+  <meta name="description" content="Trattoria SOLEのワインリスト。イタリア全土20州から約200種の銘醸ワインを厳選。J.S.A.シニアソムリエによる極上のお料理ペアリングをご提案いたします。">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☀️</text></svg>">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="header-contact-quick">
+        <span>TEL:</span>
+        <a href="tel:0357908822">03-5790-8822</a>
+        <span style="margin-left: 0.5rem; color: #9C8C7D;">(代々木上原駅 徒歩3分)</span>
+      </div>
+
+      <div class="header-logo">
+        <a href="index.html" class="logo-link">
+          <span class="logo-main"><span class="logo-sun-icon">☀</span> Trattoria SOLE</span>
+          <span class="logo-sub">Dal 2011 • Yoyogi-Uehara</span>
+        </a>
+      </div>
+
+      <div class="header-actions">
+        <a href="reservation.html" class="header-reserve-btn">
+          <span class="btn-icon">✦</span>
+          <span>ONLINE RESERVATION</span>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="メニューを開く">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="header-nav" aria-label="メインナビゲーション">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            <span>トップ</span>
+            <span class="nav-en">HOME</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="menu.html" class="nav-link">
+            <span>メニュー</span>
+            <span class="nav-en">MENU</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="wine.html" class="nav-link active">
+            <span>ワイン</span>
+            <span class="nav-en">WINE & PAIRING</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="reservation.html" class="nav-link">
+            <span>ご予約・アクセス</span>
+            <span class="nav-en">RESERVATION</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-drawer" aria-hidden="true">
+    <button class="mobile-drawer-close" aria-label="メニューを閉じる">&times;</button>
+    <nav class="mobile-drawer-nav">
+      <ul>
+        <li class="mobile-nav-item">
+          <a href="index.html" class="mobile-nav-link">トップ <span class="nav-en">HOME</span></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="menu.html" class="mobile-nav-link">メニュー <span class="nav-en">MENU</span></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="wine.html" class="mobile-nav-link">ワイン <span class="nav-en">WINE & PAIRING</span></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="reservation.html" class="mobile-nav-link">ご予約・店舗情報 <span class="nav-en">RESERVATION</span></a>
+        </li>
+      </ul>
+    </nav>
+    <a href="reservation.html" class="btn-primary mobile-drawer-btn">Web予約へ進む</a>
+  </div>
+
+  <!-- Mobile Sticky Reserve Bar -->
+  <div class="floating-reserve-bar">
+    <div class="floating-reserve-container">
+      <a href="tel:0357908822" class="floating-btn floating-btn-phone">
+        <span>☎ 電話予約</span>
+      </a>
+      <a href="reservation.html" class="floating-btn floating-btn-reserve">
+        <span>✦ オンライン予約</span>
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         Page Banner
+         ========================================================================== -->
+    <div class="page-banner">
+      <div class="page-banner-bg">
+        <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1920&q=80" alt="ワインとレストランの雰囲気">
+      </div>
+      <div class="page-banner-overlay"></div>
+      <div class="page-banner-content fade-up">
+        <span class="page-banner-sub">CARTA DEI VINI & ABBINAMENTI</span>
+        <h1 class="page-banner-title">ワイン & ペアリング</h1>
+        <div class="breadcrumbs">
+          <a href="index.html">HOME</a>
+          <span>/</span>
+          <span>WINE & PAIRING</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         Sommelier Profile Section (ソムリエ紹介・一言コメント)
+         ========================================================================== -->
+    <section class="sommelier-section">
+      <div class="container">
+        <div class="sommelier-grid fade-up">
+          <div class="sommelier-visual">
+            <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=1200&q=80" alt="シェフソムリエ 滝沢 雄介">
+          </div>
+          <div class="sommelier-body">
+            <span class="sommelier-role">CHEF SOMMELIER</span>
+            <h2 class="sommelier-name">滝沢 雄介</h2>
+            <p class="sommelier-title">YUSUKE TAKIZAWA / J.S.A.認定シニアソムリエ</p>
+
+            <blockquote class="sommelier-quote">
+              「ワインはブドウ畑を照らした太陽と、風土（テロワール）の記憶そのもの。お料理の一口とワインの一雫が重なり合った時、お互いが何倍にも輝き出す瞬間をお届けします。」
+            </blockquote>
+
+            <p class="sommelier-text">
+              都内一流ホテルやイタリアン名店にてシェフソムリエを歴任後、2015年にTrattoria SOLEのシェフソムリエに就任。イタリアワイン・ベストソムリエコンクールでの受賞歴を持つ。
+            </p>
+            <p class="sommelier-text" style="margin-top: 1rem;">
+              北はピエモンテの深遠なバローロから、南は太陽輝くシチリアの土着品種まで、イタリア全20州から常時約200種類のボトルをウォークインセラーにストック。お客様のお好みやその日の気分、松本シェフの料理に寄り添った最適な一杯を丁寧にご案内いたします。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Pairings Section (ペアリング提案 - 3セット)
+         ========================================================================== -->
+    <section class="pairings-section">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="sub-en">PERFECT MARRIAGE</span>
+          <h2 class="main-title">至極のペアリング提案</h2>
+          <p class="section-lead">
+            松本シェフの郷土料理と、ソムリエ滝沢が紡ぐワインのマリアージュ。<br>
+            お互いの香りと旨味を高め合う、3つの特別な組み合わせをご紹介いたします。
+          </p>
+        </div>
+
+        <div class="pairing-grid">
+          <!-- Pairing 1 -->
+          <article class="pairing-card fade-up">
+            <div class="pairing-visual-combo">
+              <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="ボロネーゼ">
+              <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80" alt="キャンティ クラシコ">
+              <div class="pairing-cross-icon">×</div>
+            </div>
+            <div class="pairing-body">
+              <span class="pairing-number">PAIRING 01</span>
+              <h3 class="pairing-title">自家製ボロネーゼ × キャンティ・クラシコ</h3>
+              <div class="pairing-pairing-names">
+                <div class="dish">料理：自家製手打ちタリアテッレ ボロネーゼ</div>
+                <div class="wine">ワイン：Chianti Classico Riserva（トスカーナ州）</div>
+              </div>
+              <p class="pairing-desc">
+                トスカーナの王道ペアリング。サンジョヴェーゼ種特有の凛とした美しい酸味と熟したチェリーの果実味が、6時間煮込んだ和牛ラグーの豊かな脂と甘みを心地よく包み込み、重たさを感じさせず次のひと口を誘います。
+              </p>
+            </div>
+          </article>
+
+          <!-- Pairing 2 -->
+          <article class="pairing-card fade-up delay-1">
+            <div class="pairing-visual-combo">
+              <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80" alt="アクアパッツァ">
+              <img src="https://images.unsplash.com/photo-1579684947550-22e945225d9a?auto=format&fit=crop&w=600&q=80" alt="ヴェルメンティーノ 白ワイン">
+              <div class="pairing-cross-icon">×</div>
+            </div>
+            <div class="pairing-body">
+              <span class="pairing-number">PAIRING 02</span>
+              <h3 class="pairing-title">鮮魚のアクアパッツァ × ヴェルメンティーノ</h3>
+              <div class="pairing-pairing-names">
+                <div class="dish">料理：産直鮮魚とアサリのアクアパッツァ</div>
+                <div class="wine">ワイン：Vermentino di Sardegna（サルデーニャ州）</div>
+              </div>
+              <p class="pairing-desc">
+                地中海に浮かぶサルデーニャ島の海風を浴びて育った白ワイン。ほんのり感じる塩味（ミネラル感）とフレッシュなハーブのアロマが、煮詰まった魚介の濃縮スープとチェリートマトの酸味に見事な共鳴を果たします。
+              </p>
+            </div>
+          </article>
+
+          <!-- Pairing 3 -->
+          <article class="pairing-card fade-up delay-2">
+            <div class="pairing-visual-combo">
+              <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80" alt="和牛のタリアータ">
+              <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=600&q=80" alt="バローロ 赤ワイン">
+              <div class="pairing-cross-icon">×</div>
+            </div>
+            <div class="pairing-body">
+              <span class="pairing-number">PAIRING 03</span>
+              <h3 class="pairing-title">和牛のタリアータ × バローロ “パトレス”</h3>
+              <div class="pairing-pairing-names">
+                <div class="dish">料理：特選黒毛和牛の炭火焼きタリアータ</div>
+                <div class="wine">ワイン：Barolo “Patres” San Silvestro（ピエモンテ州）</div>
+              </div>
+              <p class="pairing-desc">
+                「ワインの王であり、王のワイン」と称されるバローロ。ネッビオーロ種の力強く繊細なタンニンとスパイス香が、炭火で香ばしく焼き上げた黒毛和牛の濃厚な肉汁、熟成パルミジャーノの旨味と一体となり口福の極みへ。
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Wine List Section (Red, White, Sparkling)
+         ========================================================================== -->
+    <section class="section-wine-list">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="sub-en">SELEZIONE DI VINI ITALIANI</span>
+          <h2 class="main-title">ワインリスト</h2>
+          <p class="section-lead">
+            グラスワインは常時10種以上、ボトルワインは約200種を取り揃えております。<br>
+            ※リストは入荷状況やヴィンテージにより一部変動いたします。
+          </p>
+        </div>
+
+        <!-- 1. Red Wine (赤ワイン 5種) -->
+        <div class="wine-category-block fade-up">
+          <div class="wine-cat-header">
+            <h3 class="wine-cat-title">赤ワイン <span class="cat-en">VINI ROSSI (5種)</span></h3>
+            <span style="font-size: 0.9rem; color: var(--c-text-muted);">Glass ¥900〜 / Bottle ¥4,500〜</span>
+          </div>
+
+          <div class="wine-table">
+            <!-- Red 1 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Chianti Classico Riserva / Castello di Querceto</span>
+                <span class="wine-name-ja">キャンティ・クラシコ リゼルヴァ（カステッロ・ディ・クエルチェート）</span>
+                <span class="wine-desc">トスカーナの伝統息づく銘醸。熟したベリーの果実味にバニラとスパイスのニュアンス。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>トスカーナ州</span><br>
+                <span class="wine-tag">サンジョヴェーゼ 92%, カナイオーロ 8%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥1,100<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥6,500<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- Red 2 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Barolo “Patres” / San Silvestro</span>
+                <span class="wine-name-ja">バローロ “パトレス”（サン・シルヴェストロ）</span>
+                <span class="wine-desc">王のワイン。スミレや乾燥ハーブの気品ある香りと、緻密で長い余韻を持つフルボディ。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>ピエモンテ州</span><br>
+                <span class="wine-tag">ネッビオーロ 100%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥1,800<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥11,000<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- Red 3 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Brunello di Montalcino / Col d'Orcia</span>
+                <span class="wine-name-ja">ブルネッロ・ディ・モンタルチーノ（コル・ドルチャ）</span>
+                <span class="wine-desc">大樽で3年熟成。プラムや甘草の複雑な香り、絹のように滑らかで温かみのある風格。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>トスカーナ州</span><br>
+                <span class="wine-tag">サンジョヴェーゼ・グロッソ 100%</span>
+              </div>
+              <div class="wine-price-col">
+                -<span>Bottle Only</span>
+              </div>
+              <div class="wine-price-col">
+                ¥14,500<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- Red 4 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Amarone della Valpolicella / Sartori</span>
+                <span class="wine-name-ja">アマローネ・デッラ・ヴァルポリチェッラ（サルトーリ）</span>
+                <span class="wine-desc">ブドウを陰干しして醸す極上アパッシメント。ドライフルーツやチョコレートの濃密な官能。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>ヴェネト州</span><br>
+                <span class="wine-tag">コルヴィーナ, ロンディネッラ</span>
+              </div>
+              <div class="wine-price-col">
+                ¥2,200<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥13,800<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- Red 5 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Nero d'Avola Sicilia Bio / Barone Montalto</span>
+                <span class="wine-name-ja">ネロ・ダーヴォラ オーガニック（バローネ・モンタルト）</span>
+                <span class="wine-desc">シチリアの太陽を浴びた完熟ブドウ。丸みのある果実味と優しいタンニンで飲み心地抜群。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>シチリア州</span><br>
+                <span class="wine-tag">ネロ・ダーヴォラ 100% (有機栽培)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥900<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥4,500<span>Bottle (750ml)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. White Wine (白ワイン 4種) -->
+        <div class="wine-category-block fade-up">
+          <div class="wine-cat-header">
+            <h3 class="wine-cat-title">白ワイン <span class="cat-en">VINI BIANCHI (4種)</span></h3>
+            <span style="font-size: 0.9rem; color: var(--c-text-muted);">Glass ¥950〜 / Bottle ¥5,200〜</span>
+          </div>
+
+          <div class="wine-table">
+            <!-- White 1 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Gavi di Gavi / La Scolca</span>
+                <span class="wine-name-ja">ガヴィ・ディ・ガヴィ（ラ・スコルカ）</span>
+                <span class="wine-desc">白い花や青リンゴのアロマ、キレのある上質なミネラル感と澄んだ果実味が心地よいピエモンテの名白。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>ピエモンテ州</span><br>
+                <span class="wine-tag">コルテーゼ 100%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥1,000<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥5,800<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- White 2 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Soave Classico / Pieropan</span>
+                <span class="wine-name-ja">ソアーヴェ・クラシコ（ピエロパン）</span>
+                <span class="wine-desc">ソアーヴェ最高峰の造り手。火山性土壌由来の塩味と火打石の香り、アーモンドのほろ苦い余韻。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>ヴェネト州</span><br>
+                <span class="wine-tag">ガルガーネガ 85%, トレッビアーノ 15%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥950<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥5,200<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- White 3 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Greco di Tufo / Feudi di San Gregorio</span>
+                <span class="wine-name-ja">グレコ・ディ・トゥーフォ（フェウディ・ディ・サン・グレゴリオ）</span>
+                <span class="wine-desc">南イタリア屈指の高貴品種。白桃やアプリコットの芳醇なアロマと骨太な酸が素晴らしい厚み。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>カンパーニャ州</span><br>
+                <span class="wine-tag">グレコ 100%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥1,200<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥7,000<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- White 4 -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Vermentino di Sardegna “Costamolino” / Argiolas</span>
+                <span class="wine-name-ja">ヴェルメンティーノ・ディ・サルデーニャ（アルジオラス）</span>
+                <span class="wine-desc">地中海の潮風を思わせる爽快感。柑橘とタイムの清々しい香りで、魚介料理やアクアパッツァに。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>サルデーニャ州</span><br>
+                <span class="wine-tag">ヴェルメンティーノ 100%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥1,100<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥6,200<span>Bottle (750ml)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Sparkling Wine (スパークリング 3種) -->
+        <div class="wine-category-block fade-up">
+          <div class="wine-cat-header">
+            <h3 class="wine-cat-title">スパークリング <span class="cat-en">SPUMANTE & BOLLICINE (3種)</span></h3>
+            <span style="font-size: 0.9rem; color: var(--c-text-muted);">Glass ¥900〜 / Bottle ¥4,800〜</span>
+          </div>
+
+          <div class="wine-table">
+            <!-- Spark 1: Franciacorta -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Franciacorta Cuvée Prestige / Ca' del Bosco</span>
+                <span class="wine-name-ja">フランチャコルタ キュヴェ・プレステージ（カ・デル・ボスコ）</span>
+                <span class="wine-desc">シャンパーニュ製法で作られるイタリア最高峰スパークリング。黄金色の繊細な泡立ちとトースト香。記念日の乾杯に。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>ロンバルディア州</span><br>
+                <span class="wine-tag">シャルドネ 75%, ピノ・ネロ 15%, ピノ・ビアンコ 10%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥1,600<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥9,800<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- Spark 2: Prosecco -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Prosecco Superiore Conegliano Valdobbiadene / Bisol</span>
+                <span class="wine-name-ja">プロセッコ・スペリオーレ（ビソル）</span>
+                <span class="wine-desc">世界中で愛されるイタリアを代表する辛口スパークリング。青リンゴや白い花の爽やかな香りと細やかな泡。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>ヴェネト州</span><br>
+                <span class="wine-tag">グレーラ 100%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥950<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥5,400<span>Bottle (750ml)</span>
+              </div>
+            </div>
+
+            <!-- Spark 3: Lambrusco -->
+            <div class="wine-row">
+              <div class="wine-info">
+                <span class="wine-name-it">Lambrusco di Sorbara Secco / Medici Ermete</span>
+                <span class="wine-name-ja">ランブルスコ・ディ・ソルバーラ セッコ（メディチ・エルメーテ）</span>
+                <span class="wine-desc">赤の微発泡性辛口ワイン。イチゴやラズベリーの可憐な香りと爽快な酸味。生ハムや前菜と相性抜群。</span>
+              </div>
+              <div class="wine-region-grape">
+                <span>エミリア・ロマーニャ州</span><br>
+                <span class="wine-tag">ランブルスコ・ディ・ソルバーラ 100%</span>
+              </div>
+              <div class="wine-price-col">
+                ¥900<span>Glass (120ml)</span>
+              </div>
+              <div class="wine-price-col">
+                ¥4,800<span>Bottle (750ml)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-logo-main">Trattoria SOLE</span>
+          <span class="footer-logo-sub">DAL 2011 • YOYOGI-UEHARA</span>
+          <p class="footer-concept">
+            「太陽のように温かい、本場の味。」<br>
+            東京・代々木上原で15年。厳選イタリア郷土料理と極上ワインで、お客様の心に残る特別な時間をお届けいたします。
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="footer-social-link" aria-label="Facebook">FB</a>
+            <a href="#" class="footer-social-link" aria-label="LINE">LN</a>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-col-title">NAVIGATION</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">トップページ</a></li>
+            <li><a href="menu.html">お料理・コース</a></li>
+            <li><a href="wine.html">ワイン・ペアリング</a></li>
+            <li><a href="reservation.html">オンラインご予約</a></li>
+            <li><a href="reservation.html#access">店舗情報・アクセス</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-hours">
+          <h4 class="footer-col-title">OPENING HOURS</h4>
+          <div class="footer-info-text">
+            <p><strong>ランチタイム</strong><br>11:30 - 15:00 (L.O. 14:00)</p>
+            <p><strong>ディナータイム</strong><br>17:30 - 23:00 (L.O. 22:00)</p>
+            <p><strong>定休日</strong><br>毎週月曜日・第2火曜日<br><small>(祝日の場合は翌営業日に振替)</small></p>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <h4 class="footer-col-title">CONTACT & ACCESS</h4>
+          <div class="footer-info-text">
+            <p>〒151-0064<br>東京都渋谷区上原1丁目24-8 SOLE Court 1F</p>
+            <p>小田急線・東京メトロ千代田線<br>「代々木上原駅」南口より徒歩3分</p>
+            <span class="footer-info-phone">03-5790-8822</span>
+            <a href="reservation.html" class="header-reserve-btn" style="display: inline-flex; width: 100%; text-align: center;">WEBご予約はこちら</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2011-2026 Trattoria SOLE. All Rights Reserved.</p>
+        <p class="footer-privacy"><a href="reservation.html#policy">キャンセルポリシー・プライバシー規約</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>

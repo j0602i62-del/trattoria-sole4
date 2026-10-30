@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Trattoria SOLE（トラットリア ソーレ）| 代々木上原の本格イタリアン</title>
+  <meta name="description" content="東京・代々木上原に佇む創業15年目のイタリアンレストラン「Trattoria SOLE（トラットリア ソーレ）」。太陽のように温かいおもてなしと、本場イタリアの情熱宿る郷土料理を特別な空間で。記念日やワインとのお食事に。">
+  <meta name="keywords" content="代々木上原,イタリアン,レストラン,ワイン,記念日ディナー,トラットリア ソーレ,Trattoria SOLE">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☀️</text></svg>">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header (Central Logo, Bottom Nav, Sticky Reserve Button)
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="header-contact-quick">
+        <span>TEL:</span>
+        <a href="tel:0357908822">03-5790-8822</a>
+        <span style="margin-left: 0.5rem; color: #9C8C7D;">(代々木上原駅 徒歩3分)</span>
+      </div>
+
+      <div class="header-logo">
+        <a href="index.html" class="logo-link">
+          <span class="logo-main"><span class="logo-sun-icon">☀</span> Trattoria SOLE</span>
+          <span class="logo-sub">Dal 2011 • Yoyogi-Uehara</span>
+        </a>
+      </div>
+
+      <div class="header-actions">
+        <a href="reservation.html" class="header-reserve-btn">
+          <span class="btn-icon">✦</span>
+          <span>ONLINE RESERVATION</span>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="メニューを開く">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="header-nav" aria-label="メインナビゲーション">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">
+            <span>トップ</span>
+            <span class="nav-en">HOME</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="menu.html" class="nav-link">
+            <span>メニュー</span>
+            <span class="nav-en">MENU</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="wine.html" class="nav-link">
+            <span>ワイン</span>
+            <span class="nav-en">WINE & PAIRING</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="reservation.html" class="nav-link">
+            <span>ご予約・アクセス</span>
+            <span class="nav-en">RESERVATION</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-drawer" aria-hidden="true">
+    <button class="mobile-drawer-close" aria-label="メニューを閉じる">&times;</button>
+    <nav class="mobile-drawer-nav">
+      <ul>
+        <li class="mobile-nav-item">
+          <a href="index.html" class="mobile-nav-link">トップ <span class="nav-en">HOME</span></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="menu.html" class="mobile-nav-link">メニュー <span class="nav-en">MENU</span></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="wine.html" class="mobile-nav-link">ワイン <span class="nav-en">WINE & PAIRING</span></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="reservation.html" class="mobile-nav-link">ご予約・店舗情報 <span class="nav-en">RESERVATION</span></a>
+        </li>
+      </ul>
+    </nav>
+    <a href="reservation.html" class="btn-primary mobile-drawer-btn">Web予約へ進む</a>
+  </div>
+
+  <!-- Mobile Sticky Reserve Bar -->
+  <div class="floating-reserve-bar">
+    <div class="floating-reserve-container">
+      <a href="tel:0357908822" class="floating-btn floating-btn-phone">
+        <span>☎ 電話予約</span>
+      </a>
+      <a href="reservation.html" class="floating-btn floating-btn-reserve">
+        <span>✦ オンライン予約</span>
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         Hero Section (Full screen food image, catchphrase)
+         ========================================================================== -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1920&q=80" alt="Trattoria SOLE 本格イタリアン料理のメインディッシュ" loading="eager">
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge fade-up">15th Anniversary • Dal 2011</div>
+        <h1 class="hero-catchphrase fade-up delay-1">
+          太陽のように温かい、<br>本場の味を。
+        </h1>
+        <p class="hero-lead fade-up delay-2">
+          東京・代々木上原の閑静な街並みに佇む「トラットリア ソーレ」。<br>
+          イタリア・トスカーナの豊かな大地と太陽の恵みを感じる本格郷土料理と、<br>
+          厳選された200種を超える銘醸ワインで、かけがえのない記念日のひとときを。
+        </p>
+        <div class="hero-cta-group fade-up delay-3">
+          <a href="reservation.html" class="btn-primary">オンラインご予約</a>
+          <a href="menu.html" class="btn-secondary">お品書きを見る</a>
+        </div>
+      </div>
+
+      <a href="#chef-story" class="scroll-indicator" aria-label="下へスクロール">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+      </a>
+    </section>
+
+    <!-- ==========================================================================
+       Chef's Story Section (松本シェフのこだわり & イタリア修行エピソード)
+       ========================================================================== -->
+    <section id="chef-story" class="section-chef">
+      <div class="container">
+        <div class="chef-grid">
+          <div class="chef-visual fade-up">
+            <div class="chef-frame-accent"></div>
+            <div class="chef-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1200&q=80" alt="オーナーシェフ 松本 健太郎 調理風景">
+            </div>
+            <div class="chef-badge-experience">
+              <span class="chef-badge-num">15th</span>
+              <span class="chef-badge-text">Anniversary in Yoyogi-Uehara</span>
+            </div>
+          </div>
+
+          <div class="chef-content fade-up delay-1">
+            <div class="section-header text-left" style="margin-bottom: 1.5rem;">
+              <span class="sub-en">CHEF'S PASSION & PHILOSOPHY</span>
+              <h2 class="main-title">シェフのこだわり</h2>
+            </div>
+            <p class="chef-title-role">Executive Chef & Owner</p>
+            <h3 class="chef-name">松本 健太郎</h3>
+            <span class="chef-name-en">KENTARO MATSUMOTO</span>
+
+            <blockquote class="chef-quote">
+              「イタリアのマンマ（母）たちが家族の笑顔のために作る、あの温かく深い滋味を、代々木上原の皆様へ届けたい。」
+            </blockquote>
+
+            <p class="chef-text">
+              20代半ばで単身イタリアへ渡り、トスカーナ州フィレンツェの老舗リストランテおよび名門オステリアにて通算7年間の修行を重ねました。ブドウ畑を照らす地中海の太陽、肥沃な大地が育む旬野菜、そして伝統を受け継ぐ職人たちの情熱に強く心を打たれました。
+            </p>
+            <p class="chef-text">
+              2011年、代々木上原に「Trattoria SOLE（太陽）」を開店して今年で15年目。毎日粉から手打ちする自家製パスタ、毎朝豊洲市場や契約農家から届く最上級の旬食材、イタリア現地の製法を頑なに守る炭火焼き肉料理——気取らず、しかし一口ごとに心を満たす本物の美味しさをお届けします。
+            </p>
+
+            <div class="chef-signature">Kentaro Matsumoto</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       Seasonal Highlights (季節のおすすめ - 全幅・大判ビジュアルレイアウト)
+       ========================================================================== -->
+    <section class="section-seasonal">
+      <div class="container-wide">
+        <div class="section-header fade-up">
+          <span class="sub-en">SEASONAL HIGHLIGHTS</span>
+          <h2 class="main-title">季節のおすすめ料理</h2>
+          <p class="section-lead">
+            四季の移ろいを一皿に映し出す、今月だけのスペシャリテ。<br>
+            厳選された旬の素材と伝統の手仕事が奏でる極上のハーモニーをご堪能ください。
+          </p>
+        </div>
+
+        <div class="seasonal-features-stack">
+          <!-- Dish 1: Wagyu Tagliata (Full width split) -->
+          <article class="feature-fullwidth fade-up">
+            <div class="feature-visual">
+              <span class="feature-badge-season">SPECIALITÀ</span>
+              <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1400&q=80" alt="特選黒毛和牛のタリアータ">
+            </div>
+            <div class="feature-body">
+              <span class="feature-category">SECONDO PIATTO / MAIN</span>
+              <h3 class="feature-title-ja">特選黒毛和牛のタリアータ パルミジャーノと熟成バルサミコ</h3>
+              <p class="feature-title-it">Tagliata di Manzo Wagyu con Parmigiano Reggiano e Aceto Balsamico</p>
+              <p class="feature-desc">
+                厳選されたA5ランク黒毛和牛の内モモ肉を、トスカーナ伝統の備長炭火で表面は香ばしく中はしっとりロゼ色に焼き上げました。24ヶ月熟成のパルミジャーノ・レッジャーノと、モデナ産12年熟成バルサミコ還元ソースの濃厚なコク、ほろ苦い野生種ルーコラが肉本来の濃厚な旨味を余すところなく引き立てます。
+              </p>
+              <div class="feature-meta">
+                <span class="wine-tag">赤ワイン「バローロ」と最高のマリアージュ</span>
+                <div class="feature-price">¥3,500 <span>(税込)</span></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 2: Truffle Carbonara / Tagliatelle (Reverse layout) -->
+          <article class="feature-fullwidth reverse fade-up">
+            <div class="feature-visual">
+              <span class="feature-badge-season">PASTA FRESCA</span>
+              <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1400&q=80" alt="自家製タリアテッレ ボロネーゼ">
+            </div>
+            <div class="feature-body">
+              <span class="feature-category">PRIMO PIATTO / PASTA</span>
+              <h3 class="feature-title-ja">自家製手打ちタリアテッレ 伝統のボロネーゼ仕立て</h3>
+              <p class="feature-title-it">Tagliatelle alla Bolognese Tradizionale Fatte a Mano</p>
+              <p class="feature-desc">
+                シェフ松本が毎朝手捏ねで打つ卵入りの生パスタ「タリアテッレ」。粗挽きの粗挽き和牛と香味野菜を赤ワインとホールトマトで6時間じっくり煮込んだ特製ラグーソースは、芳醇な香りと力強い旨味が特長です。もちもちとした手打ち麺の歯ごたえと、麺に絡みつく濃厚なソースの至福の調和をお楽しみください。
+              </p>
+              <div class="feature-meta">
+                <span class="wine-tag">赤ワイン「キャンティ・クラシコ」と共に</span>
+                <div class="feature-price">¥1,600 <span>(税込)</span></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 3: Acqua Pazza (Full width split) -->
+          <article class="feature-fullwidth fade-up">
+            <div class="feature-visual">
+              <span class="feature-badge-season">PESCE DEL GIORNO</span>
+              <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1400&q=80" alt="鮮魚とアサリのアクアパッツァ">
+            </div>
+            <div class="feature-body">
+              <span class="feature-category">SECONDO PIATTO / FISH</span>
+              <h3 class="feature-title-ja">産直鮮魚とアサリ・ドライトマトのアクアパッツァ</h3>
+              <p class="feature-title-it">Acqua Pazza di Pesce Fresco con Vongole e Pomodorini</p>
+              <p class="feature-desc">
+                今朝揚がったばかりの鮮魚を一尾まるごと、国産大粒アサリ、チェリートマト、ケッパー、オリーブと共に白ワインと水だけで豪快に煮込んだ南イタリアの海の恵み。魚介のエキスが乳化した黄金色のスープは、最後の一滴まで自家製フォカッチャに浸して味わいたくなる豊かな滋味に溢れています。
+              </p>
+              <div class="feature-meta">
+                <span class="wine-tag">白ワイン「ヴェルメンティーノ」と相性抜群</span>
+                <div class="feature-price">¥2,600 <span>(税込)</span></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       Course Preview Section (Lunch, Dinner, Anniversary)
+       ========================================================================== -->
+    <section class="section-courses">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="sub-en">CORSI SPECIALI</span>
+          <h2 class="main-title">コース紹介プレビュー</h2>
+          <p class="section-lead">
+            日常を彩るランチから、特別な記念日のフルコースまで。<br>
+            大切な方との語らいを最高の料理でおもてなしいたします。
+          </p>
+        </div>
+
+        <div class="courses-grid">
+          <!-- Lunch Course -->
+          <div class="course-card fade-up">
+            <div class="course-img">
+              <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80" alt="ランチコース">
+            </div>
+            <div class="course-content">
+              <span class="course-category-tag">PRANZO / LUNCH</span>
+              <h3 class="course-name">ランチコース</h3>
+              <div class="course-price-wrap">
+                <span class="course-price-yen">¥3,800</span>
+                <span class="course-price-tax">〜 (税込)</span>
+              </div>
+              <p class="course-desc">
+                昼下がりのひとときを優雅に楽しむショートコース。旬野菜の前菜から選べる手打ちパスタ、食後のドルチェまで満足度の高い構成です。
+              </p>
+              <ul class="course-menu-bullets">
+                <li>季節の彩り前菜盛り合わせ 4種</li>
+                <li>本日の選べる手打ちパスタ</li>
+                <li>自家製パン・オリーブオイル</li>
+                <li>本日のドルチェ & カフェ</li>
+              </ul>
+              <a href="reservation.html" class="course-btn">ランチコースを予約する</a>
+            </div>
+          </div>
+
+          <!-- Dinner Course -->
+          <div class="course-card fade-up delay-1">
+            <div class="course-img">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="ディナーコース">
+            </div>
+            <div class="course-content">
+              <span class="course-category-tag">CENA / DINNER</span>
+              <h3 class="course-name">ディナーコース</h3>
+              <div class="course-price-wrap">
+                <span class="course-price-yen">¥8,500</span>
+                <span class="course-price-tax">〜 (税込)</span>
+              </div>
+              <p class="course-desc">
+                シェフの真骨頂を味わうクラシックフルコース。前菜2品から手打ちパスタ、選び抜かれた肉料理または鮮魚のメインまで贅沢に。
+              </p>
+              <ul class="course-menu-bullets">
+                <li>旬魚と季節野菜の冷前菜</li>
+                <li>温前菜（シェフのスペシャリテ）</li>
+                <li>季節の手打ちパスタ料理</li>
+                <li>本日の厳選メイン（肉または魚）</li>
+                <li>特製ドルチェ & カフェ</li>
+              </ul>
+              <a href="reservation.html" class="course-btn">ディナーコースを予約する</a>
+            </div>
+          </div>
+
+          <!-- Anniversary Course (Highlight) -->
+          <div class="course-card highlight fade-up delay-2">
+            <span class="course-badge-anniversary">一番人気 • 記念日利用</span>
+            <div class="course-img">
+              <img src="https://images.unsplash.com/photo-1569919659476-f0852f6834b7?auto=format&fit=crop&w=800&q=80" alt="記念日コース">
+            </div>
+            <div class="course-content">
+              <span class="course-category-tag">ANNIVERSARIO / SPECIAL</span>
+              <h3 class="course-name">記念日アニバーサリーコース</h3>
+              <div class="course-price-wrap">
+                <span class="course-price-yen">¥12,000</span>
+                <span class="course-price-tax">〜 (税込)</span>
+              </div>
+              <p class="course-desc">
+                お誕生日や結婚記念日を彩る最上級コース。乾杯イタリア最高峰シャンパン製法スパークリングと、特製メッセージプレートが付きます。
+              </p>
+              <ul class="course-menu-bullets">
+                <li>乾杯グラス フランチャコルタ付き</li>
+                <li>贅沢前菜2皿（キャビア・トリュフ等）</li>
+                <li>トリュフ香る自家製パスタ</li>
+                <li>特選黒毛和牛の炭火焼きタリアータ</li>
+                <li>特製アニバーサリーデザートプレート</li>
+              </ul>
+              <a href="reservation.html" class="course-btn">記念日コースを予約する</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       Testimonials (お客様の声 - 3件)
+       ========================================================================== -->
+    <section class="section-testimonials">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="sub-en">VOICE OF GUESTS</span>
+          <h2 class="main-title">お客様の声</h2>
+          <p class="section-lead">
+            大切な記念日やご会食にSOLEをお選びいただいたお客様から、<br>
+            温かいお言葉を多数いただいております。
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Voice 1 -->
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              「結婚10周年の記念日にディナーで利用しました。記念日コースの和牛タリアータはもちろん、乾杯のフランチャコルタからデザートのメッセージプレートまで完璧なお心遣いでした。スタッフの皆様の温かいおもてなしのおかげで、妻も涙ぐむほど喜んでくれました。代々木上原で一番お気に入りのリストランテです。」
+            </p>
+            <div class="testimonial-author">
+              <span class="author-info">K.T 様（40代・ご夫婦）</span>
+              <span class="author-scene">結婚記念日ディナー</span>
+            </div>
+          </div>
+
+          <!-- Voice 2 -->
+          <div class="testimonial-card fade-up delay-1">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              「手打ちパスタのボロネーゼが本当に絶品で、イタリアで食べた本場の味を思い出しました。ソムリエの滝沢さんが料理ごとに提案してくださるイタリアワインのペアリングが素晴らしく、グラスを傾けながら会話が尽きない最高の週末となりました。落ち着いた温かみのある内装もとても居心地が良いです。」
+            </p>
+            <div class="testimonial-author">
+              <span class="author-info">M.S 様（30代・カップル）</span>
+              <span class="author-scene">週末のワインデート</span>
+            </div>
+          </div>
+
+          <!-- Voice 3 -->
+          <div class="testimonial-card fade-up delay-2">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              「創業当初から15年近く通い続けています。松本シェフの料理はどれもブレがなく、素材本来の力強い美味しさが際立っています。特にアクアパッツァの旨味の凝縮感は他所では決して味わえません。大切な友人をもてなす際も、SOLEさんなら絶対に間違いがないと絶大な信頼を寄せています。」
+            </p>
+            <div class="testimonial-author">
+              <span class="author-info">H.Y 様（50代・ワイン愛好家）</span>
+              <span class="author-scene">ご会食・ディナー利用</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       Instagram Feed (プレースホルダーエリア)
+       ========================================================================== -->
+    <section class="section-instagram">
+      <div class="container">
+        <div class="section-header fade-up" style="margin-bottom: 1.5rem;">
+          <span class="sub-en">FOLLOW US</span>
+          <h2 class="main-title">Instagram</h2>
+        </div>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-handle fade-up">
+          <span>@trattoria_sole_tokyo</span>
+        </a>
+      </div>
+
+      <div class="insta-grid fade-up">
+        <div class="insta-item">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Instagram post 1">
+          <div class="insta-overlay">
+            <span class="insta-icon">♥ 248</span>
+            <span>View on Instagram</span>
+          </div>
+        </div>
+        <div class="insta-item">
+          <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80" alt="Instagram post 2">
+          <div class="insta-overlay">
+            <span class="insta-icon">♥ 312</span>
+            <span>View on Instagram</span>
+          </div>
+        </div>
+        <div class="insta-item">
+          <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Instagram post 3">
+          <div class="insta-overlay">
+            <span class="insta-icon">♥ 189</span>
+            <span>View on Instagram</span>
+          </div>
+        </div>
+        <div class="insta-item">
+          <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80" alt="Instagram post 4">
+          <div class="insta-overlay">
+            <span class="insta-icon">♥ 420</span>
+            <span>View on Instagram</span>
+          </div>
+        </div>
+        <div class="insta-item">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Instagram post 5">
+          <div class="insta-overlay">
+            <span class="insta-icon">♥ 275</span>
+            <span>View on Instagram</span>
+          </div>
+        </div>
+        <div class="insta-item">
+          <img src="https://images.unsplash.com/photo-1569919659476-f0852f6834b7?auto=format&fit=crop&w=600&q=80" alt="Instagram post 6">
+          <div class="insta-overlay">
+            <span class="insta-icon">♥ 390</span>
+            <span>View on Instagram</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-brand">
+          <span class="footer-logo-main">Trattoria SOLE</span>
+          <span class="footer-logo-sub">DAL 2011 • YOYOGI-UEHARA</span>
+          <p class="footer-concept">
+            「太陽のように温かい、本場の味。」<br>
+            東京・代々木上原で15年。厳選イタリア郷土料理と極上ワインで、お客様の心に残る特別な時間をお届けいたします。
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="footer-social-link" aria-label="Facebook">FB</a>
+            <a href="#" class="footer-social-link" aria-label="LINE">LN</a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="footer-nav">
+          <h4 class="footer-col-title">NAVIGATION</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">トップページ</a></li>
+            <li><a href="menu.html">お料理・コース</a></li>
+            <li><a href="wine.html">ワイン・ペアリング</a></li>
+            <li><a href="reservation.html">オンラインご予約</a></li>
+            <li><a href="reservation.html#access">店舗情報・アクセス</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Hours & Holidays -->
+        <div class="footer-hours">
+          <h4 class="footer-col-title">OPENING HOURS</h4>
+          <div class="footer-info-text">
+            <p><strong>ランチタイム</strong><br>11:30 - 15:00 (L.O. 14:00)</p>
+            <p><strong>ディナータイム</strong><br>17:30 - 23:00 (L.O. 22:00)</p>
+            <p><strong>定休日</strong><br>毎週月曜日・第2火曜日<br><small>(祝日の場合は翌営業日に振替)</small></p>
+          </div>
+        </div>
+
+        <!-- Col 4: Location & Phone -->
+        <div class="footer-contact">
+          <h4 class="footer-col-title">CONTACT & ACCESS</h4>
+          <div class="footer-info-text">
+            <p>〒151-0064<br>東京都渋谷区上原1丁目24-8 SOLE Court 1F</p>
+            <p>小田急線・東京メトロ千代田線<br>「代々木上原駅」南口より徒歩3分</p>
+            <span class="footer-info-phone">03-5790-8822</span>
+            <a href="reservation.html" class="header-reserve-btn" style="display: inline-flex; width: 100%; text-align: center;">WEBご予約はこちら</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2011-2026 Trattoria SOLE. All Rights Reserved.</p>
+        <p class="footer-privacy"><a href="reservation.html#policy">キャンセルポリシー・プライバシー規約</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
